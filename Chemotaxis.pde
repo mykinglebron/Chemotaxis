@@ -80,9 +80,9 @@ class fishHook{
   }
 void show(){
 strokeWeight(3);
-  line(pMouseX,pMouseY,pMouseX,pMouseY+40);
+  line(pMouseX,pMouseY,pMouseX,pMouseY-35);
 noFill(); 
-arc(pMouseX-10, pMouseY+40, 20, 20, 0,PI);
+arc(pMouseX-10, pMouseY, 20, 20, 0,PI);
 }
 void mousePos(){
  pMouseX=mouseX;
@@ -96,8 +96,3 @@ void mousePos(){
 
 
  
-void move(){
- 
- 
- 
-}
